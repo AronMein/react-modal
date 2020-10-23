@@ -165,7 +165,9 @@ const modale = modall({
               document.querySelector('.modalFooter').remove()
               block.removeEventListener('click', nope)
               open = false;
-             
+
+                  let p = document.getElementById('pa')
+                  p.innerHTML = "Nope )))" 
           }
 
 
